@@ -200,6 +200,7 @@ public class PBXResourcesBuildPhase : PBXBuildPhase {
 
 public class PBXBuildFile : PBXObject {
   public lazy var fileRef: PBXReference = self.object("fileRef")
+  lazy var settingsAssertTags: [String] =
 }
 
 public class PBXReference : PBXObject {
